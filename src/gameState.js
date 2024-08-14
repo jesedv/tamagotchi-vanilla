@@ -5,7 +5,7 @@ import {
   toggleModal,
   writeModal,
   toggleIcons,
-} from "../ui";
+} from "../ui.js";
 import {
   RAIN_CHANGE,
   SCENES,
@@ -14,7 +14,7 @@ import {
   getNextHungerTime,
   getNextDieTime,
   getNextPoopTime,
-} from "./constants";
+} from "/src/constants.js";
 
 const gameState = {
   current: "INIT",

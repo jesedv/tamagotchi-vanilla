@@ -1,8 +1,8 @@
-import gameState, { handleUserAction } from "./gameState";
+import gameState, { handleUserAction } from "/src/gameState.js";
 
-import { TICK_RATE } from "./constants";
-import initButtons from "./buttons";
-import { toggleIcons } from "../ui";
+ import { TICK_RATE } from "/src/constants.js";
+import initButtons from "/src//buttons.js";
+import { toggleIcons } from "../ui.js";
 
 // not use setinterval
 
@@ -26,3 +26,4 @@ function init() {
 }
 
 init();
+ 
